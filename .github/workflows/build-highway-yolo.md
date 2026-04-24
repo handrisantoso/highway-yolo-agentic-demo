@@ -11,15 +11,16 @@ permissions:
 
 safe-outputs:
   create-pull-request:
+    protected-files: fallback-to-issue
     allowed-files:
-      - README.md
-      - requirements.txt
-      - .gitignore
-      - src/**
-      - tests/**
-      - samples/**
-      - outputs/**
-      - app.py
+      - "README.md"
+      - "requirements.txt"
+      - ".gitignore"
+      - "app.py"
+      - "src/**"
+      - "tests/**"
+      - "samples/**"
+      - "outputs/**"
   add-comment:
   create-issue:
 
