@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# YOLO / model weights
+*.pt
+*.onnx
+*.engine
+*.tflite
+runs/
+
+# Outputs
+outputs/*.mp4
+outputs/*.avi
+outputs/*.csv
+!outputs/.gitkeep
+
+# Video samples (may be large)
+samples/*.mp4
+samples/*.avi
+samples/*.mov
+samples/*.mkv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/secrets.toml
